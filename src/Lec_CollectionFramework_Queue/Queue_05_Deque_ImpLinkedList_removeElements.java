@@ -22,7 +22,7 @@ public class Queue_05_Deque_ImpLinkedList_removeElements {
 		System.out.println(dq.peekLast());//who is bottom
 		
 		//removing
-		System.out.println(dq.remove(100));
+		System.out.println(dq.remove());
 		System.out.println(dq.peek());//who is the top
 		
 		}

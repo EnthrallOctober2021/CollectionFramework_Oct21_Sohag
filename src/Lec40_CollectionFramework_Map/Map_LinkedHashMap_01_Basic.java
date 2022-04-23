@@ -9,7 +9,7 @@ public class Map_LinkedHashMap_01_Basic {
 	public static void main(String[] args) {
 		
 		//Crearing map implementing by LinkedHashMap
-		//every key will be getting inserted in HashTable(specific indes based on hashcode) along with value and next and prev node link
+		//every key will be getting inserted in HashTable(specific index based on hashcode) along with value and next and prev node link
 		Map<Integer,String> lhmap=new LinkedHashMap<>();
 		lhmap.put(5, "S5");
 		lhmap.put(4, "S4");//index 4

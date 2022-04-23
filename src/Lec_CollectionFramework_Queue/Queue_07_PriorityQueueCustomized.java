@@ -21,7 +21,7 @@ public class Queue_07_PriorityQueueCustomized {
 		
 		Queue<EnthrallOctBatch> q =new PriorityQueue<>(new CompareStudents());
 		
-		EnthrallOctBatch st1=new EnthrallOctBatch("Noyon",100);
+		EnthrallOctBatch st1=new EnthrallOctBatch("Noyon",10);
 		EnthrallOctBatch st2=new EnthrallOctBatch("Rafez",25);
 		EnthrallOctBatch st3=new EnthrallOctBatch("Fatima",30);
 		EnthrallOctBatch st4=new EnthrallOctBatch("Rezwan",27);
@@ -31,6 +31,8 @@ public class Queue_07_PriorityQueueCustomized {
 		q.add(st2);
 		q.add(st3);
 		q.add(st4);
+		
+		System.out.println(q.peek().getName());
 		
 		while(!q.isEmpty()) {
 			System.out.println(q.poll().getName());

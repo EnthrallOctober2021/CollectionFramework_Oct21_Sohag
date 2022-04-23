@@ -25,7 +25,8 @@ public class Queue_02_ImplementedByLinkedList {
 		//see the head/top element in queue
 		System.out.println(q.peek());
 		System.out.println(q); //printing queue
-		q.poll();//removing queue
+		//q.poll();//removing queue
+		q.remove();
 		System.out.println(q.peek());
 		System.out.println(q);
 		q.poll();
@@ -35,7 +36,7 @@ public class Queue_02_ImplementedByLinkedList {
 		System.out.println(q.peek());
 		q.remove();
 		System.out.println(q.peek());//null
-		//.remove();//queue is empty--if you call remove() will get Exception
+		//q.remove();//queue is empty--if you call remove() will get Exception
 	
 
 	}

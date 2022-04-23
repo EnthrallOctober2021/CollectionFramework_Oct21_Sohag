@@ -8,10 +8,10 @@ public class CompareStudents implements Comparator<EnthrallOctBatch> {
 	public int compare(EnthrallOctBatch st1, EnthrallOctBatch st2) {
 		if(st1.age<st2.age) {
 			return -1;  
-		}else if(st1.age>st2.age) {
-			return 1;//swaping
+//		}else if(st1.age>st2.age) {
+//			return 1;//swaping
 		}
-		return 0;
+		return 1;
 	}
 
 }
